@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Ejercicio06 {
     public static void main(String[] args) {
         double montoPrestamo, interesMensual, pagoMensual;
-        int plazoMeses = 12; // Plazo de 1 año en meses
+        int plazoMeses = 12; 
         Scanner teclado = new Scanner(System.in);
         System.out.print("Ingrese el monto del prestamo: ");
         montoPrestamo = teclado.nextDouble();
